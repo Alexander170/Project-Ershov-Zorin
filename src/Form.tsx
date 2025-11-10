@@ -122,7 +122,7 @@ export default function CardForm() {
 
   return (
     <div className="w-full h-full mt-[36px] flex flex-col items-center justify-center">
-      <div className="w-[457px] h-[464px] pl-[20px] pr-[20px] border border-[#d9dee2] rounded-[10px]">
+      <div className="w-[457px] h-[464px] pl-[20px] pr-[20px] border border-[#d9dee2] rounded-[10px] shadow-md">
         <h1 className="w-[368px] h-[32px] text-title mt-[32px] mb-[20px]">
           Оплата банковской картой
         </h1>
