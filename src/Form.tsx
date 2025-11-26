@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 import { useNavigate } from "react-router";
 import { useState } from "react";
+import cat from "../src/assets/cat.jpg";
 
 const schema = z.object({
   cardNumber: z
@@ -215,6 +216,7 @@ export default function CardForm() {
               {isSubmitting ? "Отправка..." : "Оплатить"}
             </button>
           </div>
+          <img src={cat} className="mt-[100px]" alt="cat" />
         </form>
       </div>
     </div>
